@@ -1,7 +1,7 @@
-import kotlinx.browser.window
-import react.*
-import react.dom.*
+import react.FC
+import react.Props
 import react.dom.html.ReactHTML.p
+import react.key
 
 external interface VideoListProps : Props {
     var videos: List<Video>
